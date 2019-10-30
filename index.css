@@ -65,10 +65,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container{
-	width:900px;
-	margin:auto;
-	
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
 }
 
 header .left-header, header .right-header{
@@ -77,69 +77,66 @@ header .left-header, header .right-header{
 
 header .logo{
 	position: fixed;
-	margin-left:32px;
-	margin-top:-10px;
+	margin-top:-2%;
 }
 
 header nav{
 	display:inline-block;
-	margin-top:30px;
+	margin:2% 2%;
 	position:fixed;
-	background:rgb(63, 238, 230);
-	z-index: 1;
 }
 
 header nav a{
 	text-decoration: none;
-	margin:0 30px;
+	margin:0 40px;
 	color:grey;
 }
-
 header h1{
 	font-size:80px;
-	margin-bottom: 35px;
-	margin-left: 94px;
+	margin-bottom: 14%;
+	margin-left: 10%;
 	text-align:center;
 }
-
+	
 header .header-image{
-	margin-top: 73px;
-    margin-left: 16px;
+	margin-top: 25%;
+	margin-left: 10%;
 }
-
+	
 button{
 	background: white;
 	border:1px solid black;
 	padding: 3px 25px;
-	margin-left: 194px;
-    margin-bottom: 48px;
+	margin-left: 35%;
+	margin-bottom: 20%;
 }
 
 .in-half .first-half, .in-half .second-half {
 	display: inline-block;
     width: 45%;
-    margin: 40px 20px;
+    margin: 2% 1%;
 }
 
 hr{
-	width:800px;
+	width:97%;
+
 }
 .middle-pic-div .middle-img{
-	margin-left: 12px
+	margin-left: 5%;
 }
 
 .in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
 	display: inline-block;
 	width: 28%;
-	margin: 40px 20px;
+	margin: 2% 1%;
 }
 
 .contact{
-	margin-left: 20px;
+	margin-left: 1%;
 }
 
 .contact h2{
-	margin-top: 14px;
+	margin-top: 1%;
 	font-family:Roboto;
 	font-size:20px;
 }
@@ -148,5 +145,6 @@ hr{
 	line-height: 2;
 }
 .copy{
-	margin-left: 350px;
+	margin-left: 40%;
+	margin-top: 3%;
 }
