@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	margin:0;
+	padding:0;
+	max-width:100%;
+}
+
+header .left-header, header .right-header{
+	display:inline-block;
+}
+
+header .logo{
+	position: fixed;
+	margin-top:-2%;
+}
+
+header nav{
+	display:inline-block;
+	margin:2% 2%;
+	position:fixed;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+	color:grey;
+}
+header h1{
+	font-size:80px;
+	margin-bottom: 14%;
+	margin-left: 10%;
+	text-align:center;
+}
+	
+header .header-image{
+	margin-top: 25%;
+	margin-left: 10%;
+}
+	
+button{
+	background: white;
+	border:1px solid black;
+	padding: 3px 25px;
+	margin-left: 35%;
+	margin-bottom: 20%;
+}
+
+.in-half .first-half, .in-half .second-half {
+	display: inline-block;
+    width: 45%;
+    margin: 2% 1%;
+}
+
+hr{
+	width:97%;
+
+}
+.middle-pic-div .middle-img{
+	margin-left: 5%;
+}
+
+.in-thirds .left-third, .in-thirds .middle-third, .in-thirds .right-third{
+	display: inline-block;
+	width: 28%;
+	margin: 2% 1%;
+}
+
+.contact{
+	margin-left: 1%;
+}
+
+.contact h2{
+	margin-top: 1%;
+	font-family:Roboto;
+	font-size:20px;
+}
+
+.contact address{
+	line-height: 2;
+}
+.copy{
+	margin-left: 40%;
+	margin-top: 3%;
+}
